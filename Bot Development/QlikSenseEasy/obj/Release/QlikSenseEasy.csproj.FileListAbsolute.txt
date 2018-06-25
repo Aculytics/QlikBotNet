@@ -1,21 +1,24 @@
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\QlikSenseEasy.dll.config
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\QlikSenseEasy.dll
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\QlikSenseEasy.pdb
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Autofac.dll
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\BouncyCastle.CryptoExt.dll
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Newtonsoft.Json.dll
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\NinjaNye.SearchExtensions.dll
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Engine.dll
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Engine.Extensions.dll
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Engine.Extensions.WinForms.dll
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Sense.Client.dll
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Sense.Communication.dll
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Sense.JsonRpc.dll
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Autofac.xml
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Newtonsoft.Json.xml
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Engine.xml
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Sense.Client.xml
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Sense.JsonRpc.xml
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\obj\Release\QlikSenseEasy.csprojResolveAssemblyReference.cache
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\obj\Release\QlikSenseEasy.dll
-C:\Users\baz\Documents\GitHub\QlikBotNet\Bot Development\QlikSenseEasy\obj\Release\QlikSenseEasy.pdb
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\QlikSenseEasy.dll.config
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\QlikSenseEasy.dll
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\QlikSenseEasy.pdb
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Autofac.dll
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\BouncyCastle.CryptoExt.dll
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Newtonsoft.Json.dll
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\NinjaNye.SearchExtensions.dll
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Engine.dll
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Engine.Extensions.dll
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Engine.Extensions.WinForms.dll
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Sense.Client.dll
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Sense.Communication.dll
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Sense.JsonRpc.dll
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Autofac.xml
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Newtonsoft.Json.xml
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Engine.xml
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Sense.Client.xml
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\Qlik.Sense.JsonRpc.xml
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\obj\Release\QlikSenseEasy.csproj.CoreCompileInputs.cache
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\obj\Release\QlikSenseEasy.dll
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\obj\Release\QlikSenseEasy.pdb
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\obj\Release\QlikSenseEasy.csprojAssemblyReference.cache
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\obj\Release\QlikSenseEasy.csproj.CopyComplete
+C:\Users\Travis\Documents\Git Repos\QlikBotNet\Bot Development\QlikSenseEasy\bin\Release\agsXMPP.dll

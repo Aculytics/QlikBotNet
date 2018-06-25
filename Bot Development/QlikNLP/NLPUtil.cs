@@ -20,7 +20,7 @@ namespace QlikNLP
         , ShowAllStories = 26, ShowKPIs = 27, ShowMeasureByMeasure = 28, ShowListOfElements = 29, ChangeLanguage = 30
         , Apologize = 31, DirectResponse = 32, ShowElementsAboveValue = 33, ShowElementsBelowValue = 34, CreateCollaborationGroup = 35
     };
-    public enum NLPEngine { None = 0, MicrosoftLuis = 1, GoogleApiAi = 2, AmazonAlexa = 3 };
+    public enum NLPEngine { None = 0, MicrosoftLuis = 1, GoogleApiAi = 2, AmazonAlexa = 3, RasaNLU = 4 };
 
     public class PredictedIntent
     {
@@ -44,6 +44,7 @@ namespace QlikNLP
     {
         GoogleNLP QlikApiAi;
         MicrosoftLuisNLP QlikLuis;
+        RasaNLU QlikRasa;
         NLPEngine UsedEngine = NLPEngine.None;
 
         //public void NLPStartLUIS(string LuisURL, string AppID, string LuisKey)
@@ -60,6 +61,10 @@ namespace QlikNLP
         {
             QlikApiAi = new GoogleNLP(AppID, Language);
             UsedEngine = NLPEngine.GoogleApiAi;
+        }
+        public void NLPStartRasa(string ServerAddress) {
+            QlikRasa = new RasaNLU(ServerAddress);
+            UsedEngine = NLPEngine.RasaNLU;
         }
 
         private PredictedIntent Predicted = new PredictedIntent();
@@ -157,6 +162,27 @@ namespace QlikNLP
                 Predicted.Language = QlikApiAi.Language;
                 Predicted.Response = QlikApiAi.Response;
             }
+            else if (UsedEngine == NLPEngine.RasaNLU) 
+            {
+                result = QlikRasa.Predict(TextToPredict);
+
+                Predicted.HasPrediction = QlikRasa.HasPrediction;
+                Predicted.OriginalQuery = QlikRasa.OriginalQuery;
+                Predicted.Intent = QlikRasa.Intent;
+                Predicted.Measure = QlikRasa.Measure;
+                Predicted.Measure2 = QlikRasa.Measure2;
+                Predicted.Element = QlikRasa.Element;
+                Predicted.Dimension = QlikRasa.Dimension;
+                Predicted.Dimension2 = QlikRasa.Dimension2;
+                Predicted.Percentage = QlikRasa.Percentage;
+                Predicted.Number = QlikRasa.Number;
+                Predicted.ChartType = QlikRasa.ChartType;
+                Predicted.DistanceKm = QlikRasa.DistanceKm;
+                Predicted.Language = QlikRasa.Language;
+                Predicted.Response = QlikRasa.Response;
+            }
+
+
 
             return result;
         }

@@ -14,33 +14,8 @@ using QlikSenseEasy;
 
 namespace QlikConversationService
 {
-    public enum ResponseAction { None = 0, OpenApp = 1, ShowKPI = 2, ShowDimension = 3, ShowMeasure = 4, ShowSheet = 5, ShowStory = 6 };
-
-    public class ResponseOptions
+    public class TelegramConversation : Conversation
     {
-        public string Title;
-        public string ID;
-        public ResponseAction Action;
-    }
-    public class Response
-    {
-        public string TextMessage = "";
-        public string VoiceMessage = "";
-        public string NewsSearch = "";
-        public NLP NLPrediction;
-        public string WarningText = "";
-        public string ErrorText = "";
-        public string OtherAction = "";
-        public QSFoundObject ChartFound;
-        public List<ResponseOptions> Options = new List<ResponseOptions>();
-    }
-
-    public class TelegramConversation
-    {
-        private static NLP Pred = new NLP();
-
-        private const int NumberOfResults = 5;
-
         public TelegramConversation(string ApiAiKey, string Language = "Spanish")
         {
             Pred.NLPStartApiAi(ApiAiKey, Language);
@@ -49,6 +24,11 @@ namespace QlikConversationService
         public TelegramConversation(string LuisURL, string LuisAppID, string LuisKey)
         {
             Pred.NLPStartLUIS(LuisURL, LuisAppID, LuisKey);
+        }
+
+        public TelegramConversation(string RasaUrl)
+        {
+            Pred.NLPStartRasa(RasaUrl);
         }
 
         private static string cntSavvyNarrativeKey;

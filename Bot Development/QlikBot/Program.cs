@@ -16,15 +16,24 @@ namespace QlikBot
         static void Main(string[] args)
         {
             Init();
-            Bot qTelegramBot;
-            try
-            {
-                qTelegramBot = new Bot();
+            object qBot;
+            if (AppSettings.BotType == "Jabber") {
+                try {
+                    qBot = new JabberBot();
+                }
+                catch (Exception e) {
+                    Console.WriteLine(e.Message);
+                }
+                
             }
-            catch (Exception e)
-            {
-                Console.WriteLine("Start Bot Error");
-                Console.WriteLine(e.ToString());
+            else {
+                try {
+                    qBot = new TelegramBot();
+                }
+                catch (Exception e) {
+                    Console.WriteLine("Start Bot Error");
+                    Console.WriteLine(e.ToString());
+                }
             }
 
             Console.WriteLine("Type 'close' to exit.");

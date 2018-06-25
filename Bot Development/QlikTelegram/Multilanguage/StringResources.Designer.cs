@@ -245,7 +245,7 @@ namespace QlikTelegram.Multilanguage {
         }
 
         /// <summary>
-        ///   Looks up a localized string similar to Sheet for Bot user {0}.
+        ///   Looks up a localized string similar to Sheet for TelegramBot user {0}.
         /// </summary>
         internal static string cnvAnalysisSheetDescription
         {
@@ -256,7 +256,7 @@ namespace QlikTelegram.Multilanguage {
         }
 
         /// <summary>
-        ///   Looks up a localized string similar to This is the analysis the Qlik Sense Bot made based on your preferences.
+        ///   Looks up a localized string similar to This is the analysis the Qlik Sense TelegramBot made based on your preferences.
         /// </summary>
         internal static string cnvAnalysisSheetTextboxText
         {
@@ -267,7 +267,7 @@ namespace QlikTelegram.Multilanguage {
         }
 
         /// <summary>
-        ///   Looks up a localized string similar to Analysis made by the Qlik Sense Bot.
+        ///   Looks up a localized string similar to Analysis made by the Qlik Sense TelegramBot.
         /// </summary>
         internal static string cnvAnalysisSheetTextboxTitle
         {
@@ -278,7 +278,7 @@ namespace QlikTelegram.Multilanguage {
         }
 
         /// <summary>
-        ///   Looks up a localized string similar to Analysis prepared by the Qlik Sense Bot for {0}.
+        ///   Looks up a localized string similar to Analysis prepared by the Qlik Sense TelegramBot for {0}.
         /// </summary>
         internal static string cnvAnalysisSheetTitle
         {
@@ -345,7 +345,7 @@ namespace QlikTelegram.Multilanguage {
         }
 
         /// <summary>
-        ///   Looks up a localized string similar to Sheet for Bot user {0}.
+        ///   Looks up a localized string similar to Sheet for TelegramBot user {0}.
         /// </summary>
         internal static string cnvCreateChartSheetDescription
         {
@@ -356,7 +356,7 @@ namespace QlikTelegram.Multilanguage {
         }
 
         /// <summary>
-        ///   Looks up a localized string similar to Analysis prepared by the Qlik Sense Bot for {0}.
+        ///   Looks up a localized string similar to Analysis prepared by the Qlik Sense TelegramBot for {0}.
         /// </summary>
         internal static string cnvCreateChartSheetTitle
         {
@@ -466,7 +466,7 @@ namespace QlikTelegram.Multilanguage {
         }
 
         /// <summary>
-        ///   Looks up a localized string similar to Allow send location to Bot.
+        ///   Looks up a localized string similar to Allow send location to TelegramBot.
         /// </summary>
         internal static string gasButtonLocation
         {
@@ -1064,7 +1064,7 @@ namespace QlikTelegram.Multilanguage {
         }
 
         /// <summary>
-        ///   Looks up a localized string similar to I am sorry, but you are not allowed to use this Bot.
+        ///   Looks up a localized string similar to I am sorry, but you are not allowed to use this TelegramBot.
         /// </summary>
         internal static string secUserNotAllowed
         {
